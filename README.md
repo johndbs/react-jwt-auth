@@ -23,7 +23,7 @@ This project leverages the following technologies:
 
 ## Backend API
 
-The backend API for this demo can be found at: [GitHub Repository](https://github.com/johndbs/react-jwt-auth)
+The backend API for this demo can be found at: [GitHub Repository](https://github.com/johndbs/demo-spring-jwt)
 
 ## Setup and Installation
 
