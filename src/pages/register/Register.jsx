@@ -46,9 +46,10 @@ const login = (username, password) => {
         }, 5000);
       })
       .catch((error) => {
-
+        console.error('Sign-up error: ', error.response)
+        
         if (error.response) {
-          setFeedBack({ errorMessage: error.response.data.message });
+          setFeedBack({ alertMessage: JSON.stringify(error.response.data)});
         }
       });
   };
